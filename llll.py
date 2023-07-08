@@ -1,23 +1,3 @@
-# a = [1 , 2, 3, 4, 5]
-# print('Сумма: ' + str(sum(a)))
-# num1 = a[0]
-# num2 = a[1]
-# num3 = a[2]
-# num4 = a[3]
-# num5 = a[4]
-# print('Сумма: ' + str(num1 + num2 + num3 + num4 + num5))
-
-# list = ['молоко', 'хлеб', 'чай', 'вода', 'масло']
-# list.pop(-1)
-# list.pop(-2)
-# list.append('яблоко')
-# list.append('морковь')
-# list.append('сыр')
-# list.sort()
-# list.pop(-1)
-# print('Длина списка: ' + str(len(list)))
-# print(list)
-
 
 
 # def strcount(s):
@@ -32,33 +12,40 @@
 # strcount('zxccc')
 
 
-def strcount(s):
-    sym_counter = {}
-    for sym in s:
-        sym_counter[sym] = sym_counter.get(sym, 0) + 1
+# def strcount(s):
+#     sym_counter = {}
+#     for sym in s:
+#         sym_counter[sym] = sym_counter.get(sym, 0) + 1
 
-    for sym, count in sym_counter.items():
-        print(f'{sym} - {count}')
+#     for sym, count in sym_counter.items():
+#         print(f'{sym} - {count}')
 
-strcount('zxcuw9kjdhcc')
-
-
+# strcount('zxcuw9kjdhcc')
 
 
 
 
+word = input("Введите  слово: ")
+lenn = len(word) - 1
+a = 0
+stop = 0
+
+# reverse = reversed(word)
+# if len(word) % 2 != 0:
+# word_lst = list(word)
+
+while lenn - a >= a:
+    if word[lenn - a] == word[a]:
+        a += 1
+
+    else:
+        stop = 1
+        print("False")
+        break
 
 
-
-
-
-
-
-
-
-
-
-
+if stop == 0:
+    print("True")
 
 
 
