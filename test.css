@@ -1,0 +1,46 @@
+h1{
+background: red;
+}
+
+
+.p1 {
+    background: blue;
+    font-size: 32pt;
+    color: green;
+}
+
+
+.p2 {
+    border: 10px solid yellow;
+    border-radius: 5px;
+    font-size: 24pt;
+    margin-bottom: 60px;
+    padding-left: 50px;
+
+}
+
+
+
+
+.p3{
+    font-weight:900;
+    font-size: 20px
+    font-family: Courier New
+
+}
+
+
+'''
+background - задний фон
+font-size - размер
+border - обводка, рамка, solid - непрерывная - тип
+border-radius - закругление рамки
+font-weight - жирность шрифта от 100 до 900
+font-family - название шрифта
+margin - внешний отступ
+padding - внутренний отступ
+bottom -низ
+left - лево
+right - право
+top - вверх
+'''
